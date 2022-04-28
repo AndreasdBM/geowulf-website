@@ -9,4 +9,9 @@
 h1 {
     font-family: Ramaraja, sans-serif;
     font-weight: 400;
+    color: black;
+}
+#logo {
+    float: left;
+    
 }
