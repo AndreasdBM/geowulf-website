@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,5 +21,45 @@ h1 {
 }
 #logo {
     float: left;
-    
 }
+
+#menu {
+    font-size: 220%;
+    float: right;
+ }
+
+#menu li {
+     list-style-type: none;
+     margin-right: 30px;
+     float: left;
+}
+
+#menu a { 
+    text-decoration: none;
+    color: pink;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+
+#menu a:hover {
+    color: black;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-bottom: 10px solid black;
+    border-top: 10px  solid black;
+  }
+
+
+html { 
+    background: url(../css/images/IMAGE\ 2022-04-28\ 15:39:15.jpg) no-repeat center center; 
+    width: 100%;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
