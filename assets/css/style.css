@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 #hero-image { 
@@ -100,7 +100,7 @@ h1 {
 
 #cover-text1 {
     font-size: 130%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Permanent Marker", Courier, monospace;
 
     width: 300px;
     height: 200px;
@@ -109,9 +109,29 @@ h1 {
     padding-left: 10px;
 
 
-    bottom: 30px;
-    right: 140px;
+    bottom: 285px;
+    right: 30px;
 
     position: absolute;
+
 }
 
+footer {
+    height:150px
+
+}
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+/* where else to use inline for list items?*/
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
