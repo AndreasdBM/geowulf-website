@@ -10,6 +10,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 #hero-image { 
     background: url(../css/images/IMAGE\ 2022-04-28\ 15:39:15.jpg) no-repeat center center; 
@@ -188,7 +191,47 @@ footer {
     float: left;
     left: 6.5%;
     text-shadow: -2px 1px rgb(167, 208, 255);
-    padding-top: 45px;
+    padding-top: 40px;
     font-size: 50px;
-    font-family: "Bebas neue";
+    font-family: "Bebas Neue";
+}
+.third-section {
+    font-family: "Bree Serif";
+    text-align: center;
+    width: 45%;
+    float: left;
+    margin: 10px;
+    color: white;
+
+}
+#about {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 20px;
+}
+#news { 
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 25%;
+
+    padding: 20px;
+    background-image: url("images/cover-text-image-1.1.jpg");
+
+}
+
+#news > h2 {
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#about > h2 {
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#about {
+    ;
+
 }
