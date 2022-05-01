@@ -54,7 +54,7 @@ h1 {
     text-shadow: -2px 1px wheat;
 }
 #logo {
-    font-size: 600%;
+    font-size: 800%;
     float: left;
     line-height: 190px;
     margin-left: 115px;
@@ -116,6 +116,38 @@ h1 {
 
 }
 
+#cover-text2 {
+    font-size: 130%;
+    font-family: "Abril Fatface", Courier, monospace;
+    color: rgb(0, 0, 0);
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    background-image: url("images/cover-text-image-1.1.jpg");
+
+    border: 2px solid rgb(0, 0, 0);
+
+    opacity: 0.8;
+
+
+
+    top: 225px;
+    right: 1000px;
+
+    position: absolute;
+
+    text-align: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+
+
+}
+
 footer {
     height:150px
 
@@ -134,4 +166,29 @@ footer {
     margin: 1%;
     padding: 5%;
     color: black;
+}
+
+#cover-text > #date {
+    text-decoration: underline;
+}
+
+.videos {
+    text-align: center;
+}
+#video1 {
+    margin-top: 25px;;
+    background-color: rgb(255,210,210);
+}
+#video2 {
+    background-color: rgb(167, 208, 255);
+}
+
+.left-text {
+    position: absolute;
+    float: left;
+    left: 6.5%;
+    text-shadow: -2px 1px rgb(167, 208, 255);
+    padding-top: 45px;
+    font-size: 50px;
+    font-family: "Bebas neue";
 }
