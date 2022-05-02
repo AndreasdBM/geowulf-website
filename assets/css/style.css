@@ -212,7 +212,7 @@ footer {
 #news { 
     border-left: 2px solid black;
     border-right: 2px solid black;
-    width: 25%;
+    width: 100%;
 
     padding: 20px;
     background-image: url("images/cover-text-image-1.1.jpg");
@@ -238,15 +238,22 @@ footer {
 
 #newsletter-body {
     background-color: rgb(167, 208, 255);
-    background: linear-gradient(#a7d0ff, white);
+    background: linear-gradient(white, rgb(167, 208, 255));
 }
 .form-section{
     background: white;
     margin: 0 auto;
     max-width: 330;
     padding: 50px 30px;
-    border-radius: 5x;
+    border-radius: 5px;
     box-sizing: border-box;
+}
+
+.form-section h1 {
+    font-family: "Permanent Marker";
+    font-size: 160%;
+    text-shadow: none;
+    text-align: center;
 }
 
 .form-section hr {
@@ -259,11 +266,33 @@ footer {
 }
 
 .form-section p {
+    font-family: "Permanent Marker";
     text-align: center;
     font-size: 120%;
     line-height: 24px;
 }
 
-.form-content {
-    
+.form-section input {
+    font-family: "Permanent Marker";
+    border-radius: 3px;
+    background-color: rgb(0 0 0 0.7);
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding: 0 20px;
+    outline: none;
+    margin-bottom: 30px;
+
+}
+
+.form-section button {
+    border: 1px;
+    border-radius: 3px;
+    height: 50px;
+    background-color: transparent;
+
+
+
 }
