@@ -235,3 +235,35 @@ footer {
     ;
 
 }
+
+#newsletter-body {
+    background-color: rgb(167, 208, 255);
+    background: linear-gradient(#a7d0ff, white);
+}
+.form-section{
+    background: white;
+    margin: 0 auto;
+    max-width: 330;
+    padding: 50px 30px;
+    border-radius: 5x;
+    box-sizing: border-box;
+}
+
+.form-section hr {
+    color: black;
+    width: 70px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background:rgb(0, 0, 0);
+}
+
+.form-section p {
+    text-align: center;
+    font-size: 120%;
+    line-height: 24px;
+}
+
+.form-content {
+    
+}
