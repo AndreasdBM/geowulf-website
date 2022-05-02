@@ -274,6 +274,7 @@ html {
     background: white;
     margin: 0 auto;
     max-width: 330;
+    height: 90vh;
     padding: 50px 30px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -322,14 +323,21 @@ html {
 
 }
 
-.form-section button {
+input[type="submit"] {
     border: 1px;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 50px;
-    background-color: transparent;
+    background-color: rgb(255,210,210);
+    cursor: pointer;
 }
 
+input[type="submit"]:hover {
+    font-size: 125%;
+}
 
+input[type="submit"]:active {
+    
+}
 
 /* ABOUT PAGE */
 .background-about {
