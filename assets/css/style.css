@@ -182,26 +182,32 @@ h1 {
     max-height: 100px;
     font-family: "Special Elite";
     margin: 10px;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
 }
 
-#news1 { 
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+#news1, #news2, #news3 { 
+    border-right: 2px solid white;
 
+    padding: 0px;
     float: left;
-
-    padding: 50px;
+    width: 33%;
+    height: 200px;
+    background: wheat;
 }
 
-#news2 {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+#news1 {
+    border-left: 2px solid white;
+}
 
-    float: left;
 
-    padding: 50px;
+#third-section h3 {
+    padding-top: 10px;
+
+}
+
+#news-title {
+color: black;
 }
 
 /*
@@ -386,7 +392,7 @@ input[type="submit"]:active {
 
 
 #music-body {
-    background: lightslategray;
+    background: #616161;
 }
 
 
@@ -400,20 +406,20 @@ input[type="submit"]:active {
 }
 
 .new-releases {
-    padding-top: 50px;
+    padding-top: 200px;
     width: 100%;
     height: 300px;
     text-align: center;
 }
 .singles {
-    padding-top: 180px;
+    padding-top: 160px;
     width: 100%;
     height: 300px;
     text-align: center;
 }
 
 .albums {
-    padding-top: 100px;
+    padding-top: 80px;
     width: 100%;
     height: 300px;
     text-align: center;
@@ -429,7 +435,6 @@ input[type="submit"]:active {
 }
 
 .plaque {
-    
     display: inline-block;
     padding:0px 20px;
     border-radius: 12px;
@@ -469,6 +474,21 @@ input[type="submit"]:active {
     border: 0;
     background:rgb(0, 0, 0);
 }
+
+hr {
+    color: black;
+    width: 1100px;
+    height: 3px;
+    margin: 0 auto;
+    border: 0;
+    background:rgb(0, 0, 0);
+}
+
+#top-line {
+   position: relative;
+   margin: 20px;
+}
+
 /*
 
 #footer-music-page {
