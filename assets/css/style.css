@@ -149,7 +149,24 @@ h1 {
     background-color: rgb(167, 208, 255);
 }
 
+#vid {
+    
+    position: relative;
+    text-align: center;
+    width: 70%;
+}
+
 .left-text {
+    position: relative;
+    width: 10%;
+    float: left;
+    text-align: center;
+    text-shadow: -2px 1px rgb(167, 208, 255);
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: "Bebas Neue";
+
+    /*
     position: absolute;
     float: left;
     left: 6.5%;
@@ -157,6 +174,7 @@ h1 {
     padding-top: 40px;
     font-size: 50px;
     font-family: "Bebas Neue";
+    */
 }
 #third-section {
     position: relative;
@@ -368,15 +386,17 @@ input[type="submit"]:active {
 
 
 #music-body {
-    background: wheat;
+    background: lightslategray;
 }
 
 
 #header-bar-music{
     background: url(images/header-bar.png);
+    background: lightslategray;
     width: 100%;
-    height: 10vh;
-    box-shadow: 3px 3px 50px black;
+    height: 12vh;
+
+  box-shadow: 3px 3px 50px black;
 }
 
 .new-releases {
@@ -386,7 +406,7 @@ input[type="submit"]:active {
     text-align: center;
 }
 .singles {
-    padding-top: 100px;
+    padding-top: 180px;
     width: 100%;
     height: 300px;
     text-align: center;
@@ -401,7 +421,7 @@ input[type="submit"]:active {
 
 
 #logo-music {
-    font-size: 50px;
+    font-size: 100px;
     font-family: "ramaraja";
     position: relative;
     float: left;
@@ -417,7 +437,9 @@ input[type="submit"]:active {
 
 .music-headers {
     font-family: "Bebas Neue";
+    font-size: 25px;
     padding: 10px;
+    text-shadow: -2px 1px wheat;
 }
 
 .new-releases hr {
