@@ -210,6 +210,7 @@ footer {
 
 }
 .social-networks {
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -365,9 +366,11 @@ input[type="submit"]:active {
 
 /* FOR MUSIC PAGE */
 
+
 #music-body {
-    background: linear-gradient(wheat, rgb(255, 255, 255))
+    background: wheat;
 }
+
 
 #header-bar-music{
     background: url(images/header-bar.png);
@@ -379,22 +382,23 @@ input[type="submit"]:active {
 .new-releases {
     padding-top: 50px;
     width: 100%;
-    height: 33vh;
+    height: 300px;
     text-align: center;
 }
 .singles {
-    padding-top: 175px;
+    padding-top: 100px;
     width: 100%;
-    height: 33vh;
+    height: 300px;
     text-align: center;
+}
 
-}
 .albums {
-    padding-top: 175px;
+    padding-top: 100px;
     width: 100%;
-    height: 33vh;
+    height: 300px;
     text-align: center;
 }
+
 
 #logo-music {
     font-size: 50px;
@@ -405,9 +409,10 @@ input[type="submit"]:active {
 }
 
 .plaque {
-    border-radius:12px;
+    
     display: inline-block;
     padding:0px 20px;
+    border-radius: 12px;
 }
 
 .music-headers {
@@ -442,3 +447,14 @@ input[type="submit"]:active {
     border: 0;
     background:rgb(0, 0, 0);
 }
+/*
+
+#footer-music-page {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+}
+*/
+
