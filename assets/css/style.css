@@ -9,7 +9,7 @@
 #hero-image { 
     background: url(../css/images/IMAGE\ 2022-04-28\ 15:39:15.jpg) no-repeat center center; 
     width: 100%;
-    height: 650px;
+    height: 39rem; /* previously 650px */
     background-size: cover;
     animation: zoom-in-zoom-out 40s ease;
 }
@@ -84,10 +84,20 @@ body {
     float: right;
     z-index: 2;
 }
+
+.menu-forward-newsletter {
+    background-color: #646464;
+    position: relative;
+    float: right;
+    z-index: 2;
+}
+
+/* DOES NOTHING
 .hero-outer {
     width: 100%;
-    height: 650px;
+    height: 39rem;
 }
+*/
 
 h1 {
     font-family: Ramaraja, sans-serif;
@@ -98,8 +108,8 @@ h1 {
 #logo {
     font-size: 800%;
     float: left;
-    line-height: 190px;
-    margin-left: 115px;
+    line-height: 12rem; /* previously 190px */
+    margin-left: 5rem;
     width: 20%;
     text-align: center;
     position: relative;
@@ -110,13 +120,14 @@ h1 {
 #menu {
     font-size: 220%;
     float: right;
-    line-height: 75px;
+    line-height: 4.7rem; /* previously 75px */
 }
 
-#menu li {
 
+
+#menu li {
      list-style-type: none;
-     margin-right: 30px;
+     margin-right: 1.9rem; /* previously 30px */
      float: left;
 }
 
@@ -125,6 +136,7 @@ h1 {
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
     color: rgb(255,210,210);
+
 }
 
 #menu a:hover {
@@ -134,27 +146,20 @@ h1 {
 
 .isactive {
     color: black !important;
-    text-shadow: -1.5px 1.5px wheat;
-    
+    text-shadow: -1.5px 1.5px wheat;  
 }
 
 .videos {
     text-align: center;
 }
 #video1 {
-    margin-top: 25px;;
+    margin-top: 1.5rem; /*previously 25px */
     background-color: rgb(255,210,210);
 }
 #video2 {
     background-color: rgb(167, 208, 255);
 }
 
-#vid {
-    
-    position: relative;
-    text-align: center;
-    width: 70%;
-}
 
 .left-text {
     position: relative;
@@ -162,8 +167,8 @@ h1 {
     float: left;
     text-align: center;
     text-shadow: -2px 1px rgb(167, 208, 255);
-    padding-top: 40px;
-    font-size: 50px;
+    padding-top: 3.3rem; /*previously 40px*/
+    font-size: 3.2rem; /*previously 50px*/
     font-family: "Bebas Neue";
 
     /*
@@ -176,38 +181,75 @@ h1 {
     font-family: "Bebas Neue";
     */
 }
+
 #third-section {
     position: relative;
     width: 100%;
-    max-height: 100px;
-    font-family: "Special Elite";
-    margin: 10px;
+    max-height: 6.25rem; /*100px*/
+    font-family: "Bebas Neue";
+    /*border-top: 10px solid rgb(167, 208, 255);*/
+    /*font-family: "Special Elite";
+    /*margin: 0.625rem; /*10px*/
     color: black;
     text-align: center;
+    text-shadow: -2px 1px wheat;
 }
 
 #news1, #news2, #news3 { 
-    border-right: 2px solid white;
-
-    padding: 0px;
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+    border-right: 2px solid black;
     float: left;
     width: 33%;
-    height: 200px;
+    height: 15rem;
+    /*border-right: 2px solid black;*/
     background: wheat;
+    /*text-shadow: -2px 1px rgb(167, 208, 255);*/
+    /*
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    */
+    color: black;
+    
+
 }
 
 #news1 {
-    border-left: 2px solid white;
+    border-left: 2px solid black;
+}
+#news2 {
+
 }
 
 
 #third-section h3 {
-    padding-top: 10px;
-
+    padding-top: 0.625rem; /*10px*/
 }
 
 #news-title {
-color: black;
+    color: black;
+    /*text-shadow: -2px 1px rgb(167, 208, 255);*/
+    background: wheat;
+
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+#news3-pic {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.link-align {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+#a { position: relative; float: left;}
+#b { position: relative; float: right;}
+
+#a:hover, #b:hover {
+    font-size: larger;
 }
 
 /*
@@ -230,11 +272,12 @@ color: black;
 
 footer {
     clear: both;
-    height:150px
-
+    background: wheat;
+    position: relative;
+    height: 200px;
 }
 .social-networks {
-    padding-top: 50px;
+    padding-top: /*50px*/;
     text-align: center;
 }
 
@@ -254,7 +297,7 @@ footer {
 
 /* FOR NEWSLETTER PAGE */
 
-#newsletter-body {
+#newsletter-background {
     background: url(images/geowulf-newsletter-image.jpeg) no-repeat center center;
     background-size: cover;
 }
@@ -270,10 +313,10 @@ footer {
 .form-section{
     background: white;
     margin: 0 auto;
-    max-width: 330;
+    max-width: 20.625rem; /*330px*/
     height: 90vh;
-    padding: 50px 30px;
-    border-radius: 5px;
+    padding: 3.125rem 1.875rem; /*50px 30px*/
+    border-radius: 10px;
     box-sizing: border-box;
     font-family: "Special Elite";
 }
@@ -302,7 +345,7 @@ footer {
     font-family: "Special Elite";
     text-align: center;
     font-size: 120%;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .form-section input {
@@ -310,20 +353,20 @@ footer {
     border-radius: 3px;
     background-color: rgb(0 0 0 0.7);
     width: 100%;
-    height: 25px;
+    height: 1.563rem;
     border: 1px solid black;
     box-sizing: border-box;
     font-size: 100%;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     outline: none;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 
 }
 
 input[type="submit"] {
     border: 1px;
     border-radius: 5px;
-    height: 50px;
+    height: 3.125rem;
     background-color: rgb(255,210,210);
     cursor: pointer;
 }
@@ -392,42 +435,39 @@ input[type="submit"]:active {
 
 
 #music-body {
-    background: #616161;
+    background: #646464;
 }
 
-
-#header-bar-music{
-    background: url(images/header-bar.png);
-    background: lightslategray;
+ #header-bar{
+    background: #646464;
     width: 100%;
     height: 12vh;
-
-  box-shadow: 3px 3px 50px black;
 }
 
+
 .new-releases {
-    padding-top: 200px;
+    padding-top: 7.5rem;
     width: 100%;
-    height: 300px;
+    height: 18.75rem;
     text-align: center;
 }
 .singles {
-    padding-top: 160px;
+    padding-top: 10rem;
     width: 100%;
-    height: 300px;
+    height: 18.75rem;
     text-align: center;
 }
 
 .albums {
-    padding-top: 80px;
+    padding-top: 5rem;
     width: 100%;
-    height: 300px;
+    height: 18.75rem;
     text-align: center;
 }
 
 
 #logo-music {
-    font-size: 100px;
+    font-size: 6.25rem;
     font-family: "ramaraja";
     position: relative;
     float: left;
@@ -436,20 +476,20 @@ input[type="submit"]:active {
 
 .plaque {
     display: inline-block;
-    padding:0px 20px;
+    padding: 0 1.25rem;
     border-radius: 12px;
 }
 
 .music-headers {
     font-family: "Bebas Neue";
-    font-size: 25px;
-    padding: 10px;
+    font-size: 1.563rem;
+    padding: 0.625rem;
     text-shadow: -2px 1px wheat;
 }
 
 .new-releases hr {
     color: black;
-    width: 1100px;
+    width: 68.75rem;
     height: 3px;
     margin: 0 auto;
     border: 0;
@@ -458,7 +498,7 @@ input[type="submit"]:active {
 
 .singles hr {
     color: black;
-    width: 1100px;
+    width: 68.75rem;
     height: 3px;
     margin: 0 auto;
     border: 0;
@@ -468,7 +508,7 @@ input[type="submit"]:active {
 
 .albums hr {
     color: black;
-    width: 1100px;
+    width: 68.75rem;
     height: 3px;
     margin: 0 auto;
     border: 0;
@@ -477,7 +517,7 @@ input[type="submit"]:active {
 
 hr {
     color: black;
-    width: 1100px;
+    width: 68.75rem;
     height: 3px;
     margin: 0 auto;
     border: 0;
@@ -486,7 +526,7 @@ hr {
 
 #top-line {
    position: relative;
-   margin: 20px;
+   margin: 1.25rem;
 }
 
 /*
@@ -505,7 +545,7 @@ hr {
     #hero-image { 
         background: url(../css/images/IMAGE\ 2022-04-28\ 15:39:15.jpg) no-repeat center center; 
         min-width: 100%;
-        height: 650px;
+        height: 40.625rem;
 
         background-size: cover;
         animation: none;
@@ -513,9 +553,9 @@ hr {
     }
 
     #logo {
-        font-size: 50px;
+        font-size: 3.125rem;
         float: left;
-        line-height: 80px;;
+        line-height: 5rem;
         margin-left: 5%;
         width: 20%;
         text-align: center;
@@ -526,7 +566,7 @@ hr {
     #menu {
         font-size: 150%;
         float: right;
-        line-height: 75px;
+        line-height: 4.688rem;
     }
 
 
@@ -534,7 +574,7 @@ hr {
         position: relative;
         text-align: center;
         width: 70%;
-        height: 200px;
+        height: 12.5rem;
     }
     .left-text {
         position: relative;
@@ -549,85 +589,62 @@ hr {
     }    
 
 
-    #third-section {
-        position: relative;
-        width: 100%;
-        max-height: none;
-        font-family: "Special Elite";
-        margin: 10px;
-        color: black;
-        text-align: center;
-    }
+  
 
     #news1, #news2, #news3 { 
-        border-right: 2px solid white;
         padding: 0px;
         float: left;
         width: 100%;
         height: 200px;
-        background: wheat;
     }
 
-    #news1 {
-        border-left: 2px solid white;
-    }
-
-
-    #third-section h3 {
-        padding-top: 10px;
-
-    }
-
-    #news-title {
-        color: black;
-    }
     /* END HOMEPAGE MOBILE */
 
     /* MUSIC PAGE MOBILE */
     .new-releases {
-        padding-top: 40px;
+        padding-top: 2.5rem;
         width: 100%;
-        height: 300px;
+        height: 18.75rem;
         text-align: center;
     }
     .singles {
-        padding-top: 160px;
+        padding-top: 10rem;
         width: 100%;
-        height: 300px;
+        height: 18.75rem;
         text-align: center;
     }
     
     .albums {
-        padding-top: 250px;
+        padding-top: 15.625rem;
         width: 100%;
-        height: 600px;
+        height: 37.5rem;
         text-align: center;
     }
 
     #logo-music {
-        font-size: 50px;
+        font-size: 3.125rem;
         font-family: "ramaraja";
         position: relative;
         float: left;
     }
     .albums > .plaque {
         width: 80% !important;
-        height: 300px;
-        padding:0px 20px;
+        height: 18.75rem;
+        padding: 0 1.25rem;
         border-radius: 12px;
     }
     .plaque {
         margin-top: 20px;
         width: 80% !important;
-        height: 80px;
-        padding:0px 20px;
+        height: 75px;
+        padding: 0 1.25rem;
         border-radius: 12px;
     }
 
     .music-headers {
         font-family: "Bebas Neue";
-        font-size: 25px;
-        padding: 10px;
+        font-size: 1.563rem;
+        padding: 0.625rem;
         text-shadow: -2px 1px wheat;
     }
 
