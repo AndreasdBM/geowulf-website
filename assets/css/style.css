@@ -4,25 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-/* FOR HOME PAGE */
+/* FOR HOME PAGE AND MENU */
 
 #hero-image { 
     background: linear-gradient(to bottom, rgba(117, 19, 93, 0.8), rgba(245, 246, 252, 0.3)), url(../css/images/geowulf-main-image.jpg) no-repeat center center;
     width: 100%;
-    height: 39rem; /* previously 650px */
+    height: 39rem;
     background-size: cover;
-    
-    /* animation: zoom-in-zoom-out 40s ease; */
-}
-
-@keyframes zoom-in-zoom-out {
-  0% {
-    -webkit-transform: scale(1, 1);
-  }
-  100% {
-    -webkit-transform: scale(1.1, 1.1);
- }
-
 }
 body {
     background-color: wheat;
@@ -37,21 +25,6 @@ body {
     float: right;
     z-index: 2;
 }
-
-.menu-forward-newsletter {
-    background-color: #646464;
-    position: relative;
-    float: right;
-    z-index: 2;
-}
-
-/* DOES NOTHING
-.hero-outer {
-    width: 100%;
-    height: 39rem;
-}
-*/
-
 h1 {
     font-family: Ramaraja, sans-serif;
     font-weight: 400;
@@ -61,35 +34,27 @@ h1 {
 #logo {
     font-size: 800%;
     float: left;
-    line-height: 12rem; /* previously 190px */
+    line-height: 12rem;
     margin-left: 5rem;
     width: 20%;
     text-align: center;
     position: relative;
     z-index: 2;
 }
-
-
 #menu {
     font-size: 220%;
     float: right;
-    line-height: 4.7rem; /* previously 75px */
+    line-height: 4.7rem;
 }
-
-
-
 #menu li {
      list-style-type: none;
      margin-right: 1.9rem; /* previously 30px */
      float: left;
 }
-
 #menu a { 
-
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
     color: rgb(255,210,210);
-
 }
 
 #menu a:hover {
@@ -101,39 +66,24 @@ h1 {
     color: black !important;
     text-shadow: -1.5px 1.5px wheat;  
 }
-
 .videos {
     text-align: center;
 }
 #video1 {
-
     background-color: rgb(255,210,210);
 }
 #video2 {
     background-color: rgba(117, 19, 93, 0.73);
 }
-
-
-
 .left-text {
     position: relative;
     width: 10%;
     float: left;
     text-align: center;
     text-shadow: -2px 1px rgba(117, 19, 93, 0.73);
-    padding-top: 3.3rem; /*previously 40px*/
-    font-size: 3.2rem; /*previously 50px*/
-    font-family: "Bebas Neue";
-
-    /*
-    position: absolute;
-    float: left;
-    left: 6.5%;
-    text-shadow: -2px 1px rgb(167, 208, 255);
-    padding-top: 40px;
-    font-size: 50px;
-    font-family: "Bebas Neue";
-    */
+    padding-top: 3.3rem;
+    font-size: 3.2rem;
+    font-family: "Bebas Neue", sans-serif;
 }
 #vid {  
     position: relative;
@@ -144,55 +94,33 @@ h1 {
 #news-section {
     position: relative;
     width: 100%;
-    max-height: 6.25rem; /*100px*/
-    font-family: "Bebas Neue";
-    /*border-top: 10px solid rgb(167, 208, 255);*/
-    /*font-family: "Special Elite";
-    /*margin: 0.625rem; /*10px*/
+    max-height: 6.25rem;
+    font-family: "Bebas Neue", sans-serif;
     color: black;
     text-align: center;
     text-shadow: -2px 1px wheat;
 }
-
 #news1, #news2, #news3 { 
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 1.5rem;
     border-right: 2px solid black;
     float: left;
     width: 33%;
     height: 15rem;
-    /*border-right: 2px solid black;*/
     background: wheat;
-    /*text-shadow: -2px 1px rgb(167, 208, 255);*/
-    /*
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    */
     color: black;
-    
-
+    padding-bottom: 4rem;
 }
-
 #news1 {
     border-left: 2px solid black;
 }
-#news2 {
-
-}
-
 
 #news-section h3 {
-    padding-top: 0.625rem; /*10px*/
-}
-
-.link-text {
-    text-decoration: none;
-    color: black;
+    padding-top: 0.625rem;
 }
 
 #news-title {
     color: black;
-    /*text-shadow: -2px 1px rgb(167, 208, 255);*/
     background: wheat;
 
     font-size: 3rem;
@@ -217,23 +145,12 @@ h1 {
     transition: .3s;
 }
 
-/*
-#about > h2 {
-    background-color: black;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+.link-text {
+    text-decoration: none;
+    color: black;
 }
 
-
-#about {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    padding: 20px;
-}
-*/
-
-
-/* FOOTER */
+/* FOR FOOTER */
 
 footer {
     clear: both;
@@ -243,15 +160,12 @@ footer {
     text-shadow: -2px 1px rgba(117, 19, 93, 0.73);
 }
 .social-networks {
-    padding-top: /*50px*/ normal;
+    padding-top: normal;
     text-align: center;
 }
-
 .social-networks > li {
     display: inline;
 }
-/* where else to use inline for list items?*/
-
 .social-networks i {
     font-size: 160%;
     margin: 1%;
@@ -259,112 +173,13 @@ footer {
     color: black;
 }
 
-/* END OF FOOTER */
-
-/* FOR NEWSLETTER PAGE */
-
-#newsletter-background {
-    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)), url(images/geowulf-newsletter-image.jpeg);
-    background-size: cover;
-
-}
-/*
-#newsletter-top-bar {
-    width: 100%;
-    height: 10vh;
-    background-color: white;
-    border-bottom: 2px solid black;
-}
-*/
-
-.form-section{
-    background: white;
-    margin: 0 auto;
-    max-width: 20.625rem; /*330px*/
-    height: 90vh;
-    padding: 3.125rem 1.875rem; /*50px 30px*/
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-family: "Special Elite";
-}
-
-#form-lbl {
-    text-decoration: underline;
-}
-
-.form-section h1 {
-    font-family: "Special Elite";
-    font-size: 160%;
-    text-shadow: none;
-    text-align: center;
-}
-
-.form-section hr {
-    color: black;
-    width: 70px;
-    height: 3px;
-    margin: 30px auto;
-    border: 0;
-    background:rgb(0, 0, 0);
-}
-
-.form-section p {
-    font-family: "Special Elite";
-    text-align: center;
-    font-size: 120%;
-    line-height: 1.5rem;
-}
-
-.form-section input {
-    font-family: "Special Elite";
-    border-radius: 3px;
-    background-color: rgb(0 0 0 0.7);
-    width: 100%;
-    height: 1.563rem;
-    border: 1px solid black;
-    box-sizing: border-box;
-    font-size: 100%;
-    padding: 0 1.25rem;
-    outline: none;
-    margin-bottom: 1.875rem;
-
-}
-
-input[type="submit"] {
-    border: 1px;
-    border-radius: 5px;
-    height: 3.125rem;
-    background-color: rgb(255,210,210);
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    font-size: 125%;
-}
-
-input[type="submit"]:active {
-    
-}
-
 /* FOR MUSIC PAGE */
-html {
-    background-color: wheat;
-}
 
 #music-body {
-    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.7), rgba(245, 246, 252, 0.75)), url(images/resizedandcompressed.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.7), rgba(245, 246, 252, 0.75)), url(images/desert-landscape.jpg) no-repeat center center;
     background-size: cover;
     height: 180vh;
-
 }
-
- #header-bar{
-    background: #646464;
-    width: 100%;
-    height: 12vh;
-}
-
-
 .new-releases {
     padding-top: 6rem;
     width: 100%;
@@ -377,40 +192,31 @@ html {
     height: 18.75rem;
     text-align: center;
 }
-
 .albums {
     padding-top: 8rem;
     width: 100%;
     height: 18.75rem;
     text-align: center;
 }
-.albums > iframe {
-    /*height: 23rem;*/
-}
-
-
 #logo-music {
     font-size: 6.25rem;
-    font-family: "ramaraja";
+    font-family: "Ramaraja", sans-serif;
     position: relative;
     float: left;
     left: 12.5%;
 }
-
 .plaque {
     display: inline-block;
     padding: 0 1.25rem;
     border-radius: 12px;
     height: 250px;
 }
-
 .music-headers {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 1.563rem;
     padding: 0.625rem;
     text-shadow: -2px 1px wheat;
 }
-
 .new-releases hr {
     color: black;
     width: 68.75rem;
@@ -419,7 +225,6 @@ html {
     border: 0;
     background:rgb(0, 0, 0);
 }
-
 .singles hr {
     color: black;
     width: 68.75rem;
@@ -427,9 +232,7 @@ html {
     margin: 0 auto;
     border: 0;
     background:rgb(0, 0, 0);
-
 }
-
 .albums hr {
     color: black;
     width: 68.75rem;
@@ -438,7 +241,6 @@ html {
     border: 0;
     background:rgb(0, 0, 0);
 }
-
 hr {
     color: black;
     width: 68.75rem;
@@ -447,27 +249,75 @@ hr {
     border: 0;
     background:rgb(0, 0, 0);
 }
-
 #top-line {
    position: relative;
    margin: 1.25rem;
 }
 
-/*
+/* FOR NEWSLETTER PAGE */
 
-#footer-music-page {
-    position: relative;
-    width: 100%;
-    height: 120px;
-    text-align: center;
-    padding-top: 50px;
+#newsletter-background {
+    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)), url(images/geowulf-newsletter-image.jpeg);
+    background-size: cover;
 }
-*/
-
-@media screen and (max-width: 400px) {
+.form-section{
+    background: white;
+    margin: 0 auto;
+    max-width: 20.625rem;
+    height: 90vh;
+    padding: 3.125rem 1.875rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Special Elite", sans-serif;
+}
+#form-lbl {
+    text-decoration: underline;
+}
+.form-section h1 {
+    font-family: "Special Elite", sans-serif;
+    font-size: 160%;
+    text-shadow: none;
+    text-align: center;
+}
+.form-section hr {
+    color: black;
+    width: 70px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background:rgb(0, 0, 0);
+}
+.form-section p {
+    font-family: "Special Elite", sans-serif;
+    text-align: center;
+    font-size: 120%;
+    line-height: 1.5rem;
+}
+.form-section input {
+    font-family: "Special Elite", sans-serif;
+    border-radius: 3px;
+    background-color: rgb(0 0 0 0.7);
+    width: 100%;
+    height: 1.563rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding: 0 1.25rem;
+    outline: none;
+    margin-bottom: 1.875rem;
+}
+#submit-btn {
+    -webkit-appearance: none;
+    border: 1px;
+    border-radius: 5px;
+    height: 3.125rem;
+    background-color: rgb(255,210,210);
+    cursor: pointer;
+} 
+#submit-btn:hover { font-size: 125%;}
+@media screen and (max-width: 480px) {
     /* HOMEPAGE FOR MOBILE */
     #hero-image { 
-        background: url(../css/images/geowulf-main-image.jpg) no-repeat center center; 
         min-width: 100%;
         height: 40.625rem;
 
@@ -488,45 +338,51 @@ hr {
     }
 
     #menu {
-        font-size: 150%;
-        float: right;
+        font-size: 200%;
+        
         line-height: 4.688rem;
     }
 
 
     #vid {  
+        padding-top: 1%;
         position: relative;
         text-align: center;
         width: 70%;
         height: 12.5rem;
     }
+   
     .left-text {
         position: relative;
         width: 10%;
         float: left;
         text-align: center;
         text-shadow: -2px 1px rgb(167, 208, 255);
-        padding-top: 40px;
+        padding-top: 20px;
         font-size: 25px;
         font-family: "Bebas Neue";
         line-height: normal !important;
     }    
 
-
-  
-
-    #news1, #news2, #news3 { 
-        padding: 0px;
+    #news1, #news2, #news3 {
+        border-bottom: 2px solid black;
+        border-left: none;
+        border-right: none;
         float: left;
         width: 100%;
-        height: 200px;
+        height: 275px;
     }
 
+    .link-align {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
     /* END HOMEPAGE MOBILE */
 
     /* MUSIC PAGE MOBILE */
     #music-body {
-        height: auto;
+        height: 265vh !important;
     }
     .new-releases {
         padding-top: 2.5rem;
@@ -535,14 +391,14 @@ hr {
         text-align: center;
     }
     .singles {
-        padding-top: 10rem;
+        padding-top: 9rem;
         width: 100%;
         height: 18.75rem;
         text-align: center;
     }
     
     .albums {
-        padding-top: 15.625rem;
+        padding-top: 12.625rem;
         width: 100%;
         height: 37.5rem;
         text-align: center;
@@ -590,6 +446,179 @@ hr {
     hr {
         width: 90%;
     }
+    footer {
+        padding-top: 30%;
+    }
     /* END MUSIC PAGE MOBILE */
+
+    /* NEWSLETTER PAGE MOBILE */
+    .form-section { 
+        position: relative;
+        top: 100px;
+        
+        height: 120vh;
+    }
+    /* END NEWSLETTER PAGE MOBILE */
   
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+        /* HOMEPAGE FOR TABLET */
+        #hero-image { 
+            min-width: 100%;
+            height: 40.625rem;
+    
+            background-size: cover;
+            animation: none;
+            transform: scale(1, 1);
+        }
+    
+        #logo {
+            font-size: 3.125rem;
+            float: left;
+            line-height: 5rem;
+            margin-left: 5%;
+            width: 20%;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+    
+        #menu {
+            font-size: 250%;
+            line-height: 4.688rem;
+        }
+        #vid {  
+            padding-top: 1%;
+            position: relative;
+            text-align: center;
+            width: 70%;
+            height: 12.5rem;
+        }
+        .left-text {
+            position: relative;
+            width: 10%;
+            float: left;
+            text-align: center;
+            text-shadow: -2px 1px rgb(167, 208, 255);
+            padding-top: 20px;
+            font-size: 25px;
+            font-family: "Bebas Neue";
+            line-height: normal !important;
+        }    
+    
+        #news1, #news2, #news3 { 
+            border-bottom: 2px solid black;
+            border-left: none;
+            border-right: none;
+            float: left;
+            width: 100%;
+            height: 250px;
+            }
+        #news1 {
+            border-top: 2px solid black;
+        }
+    .link-align {
+            position: relative;
+            width: 80%;
+            margin: auto;
+        }
+        /* END HOMEPAGE TABLET */
+    
+        /* MUSIC PAGE TABLET */
+        #music-body {
+            height: 180vh !important;
+        }
+        .new-releases {
+            padding-top: 2.5rem;
+            width: 100%;
+            height: 18.75rem;
+            text-align: center;
+        }
+        .singles {
+            padding-top: 9rem;
+            width: 100%;
+            height: 18.75rem;
+            text-align: center;
+        }
+        
+        .albums {
+            padding-top: 10.625rem;
+            width: 100%;
+            height: 37.5rem;
+            text-align: center;
+        }
+    
+        #logo-music {
+            font-size: 3.125rem;
+            font-family: "ramaraja";
+            position: relative;
+            float: left;
+        }
+        .albums > .plaque {
+            width: 80% !important;
+            height: 18.75rem;
+            padding: 0 1.25rem;
+            border-radius: 12px;
+        }
+        .plaque {
+            margin-top: 20px;
+            width: 80% !important;
+            height: 75px;
+            padding: 0 1.25rem;
+            border-radius: 12px;
+        }
+    
+        .music-headers {
+            font-family: "Bebas Neue";
+            font-size: 1.563rem;
+            padding: 0.625rem;
+            text-shadow: -2px 1px wheat;
+        }
+    
+        .new-releases hr {
+            width: 90%;
+        }
+    
+        .singles hr {
+            width: 90%;
+        }
+    
+        .albums hr {
+            width: 90%;
+        }
+    
+        hr {
+            width: 90%;
+        }
+        footer {
+            padding-top: 14%;
+        }
+        /* END MUSIC PAGE TABLET */
+    
+        /* NEWSLETTER PAGE TABLET */
+        .form-section { 
+            text-align: center;
+            position: relative;
+            top: 80px;
+            font-size: 160%;
+            height: 85vh;
+        }
+        .form-section h1 {
+            text-align: center;
+        }
+        #fname, #lname, #email {
+            height: 35px;
+        }
+    }
+        /* END NEWSLETTER PAGE TABLET */
