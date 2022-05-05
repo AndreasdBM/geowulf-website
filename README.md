@@ -98,7 +98,7 @@ A. Users can navigate to the “Newsletter” page on the band’s website and s
 
 ## Screenshots and Descriptions of Features
 
-![image](assets/images/geowulf-screenshots/hero-image-and-menu.png)
+![image](assets/css/images/geowulf-screenshots/hero-image-and-menu.png)
 This is the hero image that the user first sees when visiting the website. It is a visually pleasing image and is intended to create a certain feeling in the user and inspire curiosity.
 
 ![image](assets/css/images/geowulf-screenshots/menu.png)
