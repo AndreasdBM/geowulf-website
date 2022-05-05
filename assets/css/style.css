@@ -230,7 +230,7 @@ h1 {
     padding-top: 0.625rem; /*10px*/
 }
 
-#news-section > div > p > a {
+.link-text {
     text-decoration: none;
     color: black;
 }
