@@ -11,54 +11,9 @@
     width: 100%;
     height: 39rem; /* previously 650px */
     background-size: cover;
-    /*animation: zoom-in-zoom-out 40s ease;*/
+    
+    /* animation: zoom-in-zoom-out 40s ease; */
 }
- /*
-
-#cover-text1 {
-    font-size: 130%;
-    font-family: "Permanent Marker", Courier, monospace;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-
-    bottom: 285px;
-    right: 30px;
-
-    position: absolute;
-
-}
-#cover-text2 {
-    font-size: 130%;
-    font-family: "Abril Fatface", Courier, monospace;
-    color: rgb(0, 0, 0);
-
-    width: 300px;
-    height: 300px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-    background-image: url("images/cover-text-image-1.1.jpg");
-
-    border: 2px solid rgb(0, 0, 0);
-
-    opacity: 0.8;
-
-    top: 225px;
-    right: 1000px;
-
-    position: absolute;
-
-    text-align: center;
-    align-items: center;
-
-    border-radius: 50%;
-}
-*/
 
 @keyframes zoom-in-zoom-out {
   0% {
@@ -288,7 +243,7 @@ footer {
     text-shadow: -2px 1px rgba(117, 19, 93, 0.73);
 }
 .social-networks {
-    padding-top: /*50px*/;
+    padding-top: /*50px*/ normal;
     text-align: center;
 }
 
@@ -309,7 +264,7 @@ footer {
 /* FOR NEWSLETTER PAGE */
 
 #newsletter-background {
-    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)), url(images/geowulf-8.jpg);
+    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)), url(images/geowulf-newsletter-image.jpeg);
     background-size: cover;
 
 }
@@ -397,10 +352,9 @@ html {
 }
 
 #music-body {
-    background: wheat;
-    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)), url(images/desert-landscape-4.jpg) no-repeat center center;
-    height: 180vh;
+    background: linear-gradient(to bottom, rgba(117, 19, 93, 0.7), rgba(245, 246, 252, 0.75)), url(images/resizedandcompressed.jpg) no-repeat center center;
     background-size: cover;
+    height: 180vh;
 
 }
 
@@ -418,17 +372,20 @@ html {
     text-align: center;
 }
 .singles {
-    padding-top: 2rem;
+    padding-top: 3rem;
     width: 100%;
     height: 18.75rem;
     text-align: center;
 }
 
 .albums {
-    padding-top: 5rem;
+    padding-top: 8rem;
     width: 100%;
     height: 18.75rem;
     text-align: center;
+}
+.albums > iframe {
+    /*height: 23rem;*/
 }
 
 
