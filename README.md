@@ -56,9 +56,6 @@ This is the official website for the band Geowulf. It has been designed for fans
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
-* W3C Markup Validator - Results
-* W3C CSS Validator - Results
  
 ## Testing User Stories from User Experience (UX) Section
 
@@ -99,30 +96,39 @@ A. Users can navigate to the “Newsletter” page on the band’s website and s
 ## Screenshots and Descriptions of Features
 
 ![image](assets/css/images/geowulf-screenshots/hero-image-and-menu.png)
+
 This is the hero image that the user first sees when visiting the website. It is a visually pleasing image and is intended to create a certain feeling in the user and inspire curiosity.
 
 ![image](assets/css/images/geowulf-screenshots/menu.png)
+
 This is the menu that appears on every page. This is to allow the user to easily navigate between different pages.
 
 ![image](assets/css/images/geowulf-screenshots/music-video.png)
+
 This is one of three embedded music videos on the homepage. The user can easily play and watch these and can choose to enlarge the video so that it covers the entire screen. These elements also work as links to Youtube if the viewer prefers to watch the videos there.
 
 ![image](assets/css/images/geowulf-screenshots/news-section.png)
+
 This is the “News” section where the user can find news about the band that might be of interest to the user. Links have been embedded into the appropriate text elements and these pieces of text enlarge when hovered to emphasize that they can be clicked.
 
 ![image](assets/css/images/geowulf-screenshots/footer.png)
+
 This is the footer that appears on all pages of the website. When the icons are clicked the user is taken to the artist’s Facebook page, Instagram page, Twitter, Spotify or Youtube channel respectively. These links open in a new tab.
 
 ![image](assets/css/images/geowulf-screenshots/new-releases.png)
+
 This is the “New Releases” section on the “Music” page. Here Spotify tracks have been embedded that the user can play on the website if logged into Spotify. If the user is not logged in the user is offered the possibility of logging in to Spotify. The user can also choose to listen to these tracks on Spotify by clicking the Spotify icon on the top right. (Spotify opens in a new tab.)
 
 ![image](assets/css/images/geowulf-screenshots/albums.png)
+
 This is the "Albums" section. Here the user can listen to entire albums from the artist on the website if logged into Spotify. The tracks can be scrolled through. The user can also choose to listen to these tracks on Spotify by clicking the Spotify icon on the top right. (Spotify opens in a new tab.)
 
 ![image](assets/css/images/geowulf-screenshots/other-goodies.png)
+
 This section is for additional tracks that are not included in either of the albums.
 
 ![image](assets/css/images/geowulf-screenshots/form.png)
+
 This is the form section of the “Newsletter page” where the user can sign up to the newsletter. The user is able to enter information into the form fields and the submit button is clickable.
 
 
