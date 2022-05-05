@@ -186,7 +186,7 @@ h1 {
     width: 70%;
     height: 400px;
 }
-#third-section {
+#news-section {
     position: relative;
     width: 100%;
     max-height: 6.25rem; /*100px*/
@@ -226,8 +226,13 @@ h1 {
 }
 
 
-#third-section h3 {
+#news-section h3 {
     padding-top: 0.625rem; /*10px*/
+}
+
+#news-section > div > p > a {
+    text-decoration: none;
+    color: black;
 }
 
 #news-title {
@@ -252,8 +257,9 @@ h1 {
 #a { position: relative; float: left;}
 #b { position: relative; float: right;}
 
-#a:hover, #b:hover {
+.link-text:hover {
     font-size: larger;
+    transition: .3s;
 }
 
 /*
