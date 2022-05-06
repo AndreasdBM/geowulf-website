@@ -48,7 +48,7 @@ h1 {
 }
 #menu li {
      list-style-type: none;
-     margin-right: 1.9rem; /* previously 30px */
+     margin-right: 1.9rem;
      float: left;
 }
 #menu a { 
@@ -85,7 +85,7 @@ h1 {
     font-size: 3.2rem;
     font-family: "Bebas Neue", sans-serif;
 }
-.vid {  
+#vid {  
     position: relative;
     text-align: center;
     width: 70%;
@@ -134,7 +134,7 @@ h1 {
 }
 .link-align {
     position: relative;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 #a { position: relative; float: left;}
@@ -153,6 +153,7 @@ h1 {
 /* FOR FOOTER */
 
 footer {
+    margin-top: 22px;
     clear: both;
     background: wheat;
     position: relative;
@@ -180,9 +181,9 @@ footer {
     height: 190vh;
 }
 .new-releases {
-    padding-top: 6rem;
+    padding-top: 7rem;
     width: 100%;
-    height: 18.75rem;
+    height: 19.75rem;
     text-align: center;
 }
 .singles {
@@ -192,7 +193,7 @@ footer {
     text-align: center;
 }
 .albums {
-    padding-top: 8rem;
+    padding-top: 6rem;
     width: 100%;
     height: 18.75rem;
     text-align: center;
@@ -210,6 +211,7 @@ footer {
     border-radius: 12px;
     height: 250px;
 }
+
 .music-headers {
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.563rem;
@@ -253,12 +255,6 @@ hr {
    margin: 1.25rem;
 }
 
-#first-and-third-plaque {
-    width: 20%;
-}
-#second-plaque {
-    width: 30%;
-}
 /* FOR NEWSLETTER PAGE */
 
 #newsletter-background {
@@ -319,6 +315,7 @@ hr {
     cursor: pointer;
 } 
 #submit-btn:hover { font-size: 125%;}
+
 @media screen and (max-width: 480px) {
     /* HOMEPAGE FOR MOBILE */
     #hero-image { 
@@ -353,7 +350,7 @@ hr {
         position: relative;
         text-align: center;
         width: 70%;
-        height: 12.5rem;
+        height: 12.5rem !important;
     }
    
     .left-text {
@@ -450,7 +447,9 @@ hr {
     hr {
         width: 90%;
     }
+    
     footer {
+        margin-top: 70px;
         padding-top: 30%;
     }
     /* END MUSIC PAGE MOBILE */
@@ -465,16 +464,6 @@ hr {
     /* END NEWSLETTER PAGE MOBILE */
   
 }
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 481px) and (max-width: 850px) {
         /* HOMEPAGE FOR TABLET */
@@ -532,7 +521,7 @@ hr {
         #news1 {
             border-top: 2px solid black;
         }
-    .link-align {
+        .link-align {
             position: relative;
             width: 80%;
             margin: auto;
@@ -605,9 +594,12 @@ hr {
         hr {
             width: 90%;
         }
+        
         footer {
+            margin-top: 70px;
             padding-top: 14%;
         }
+        
         /* END MUSIC PAGE TABLET */
     
         /* NEWSLETTER PAGE TABLET */
